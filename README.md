@@ -2,10 +2,10 @@
 
   ## Rust Secure Transport Format
 
-  [![Release](https://img.shields.io/github/v/release/dogesenic/rstf-rust)](https://github.com/dogesenic/rstf-rust/releases)
+  [![Release](https://img.shields.io/github/v/release/dogesenic/rstf)](https://github.com/dogesenic/rstf/releases)
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-  [![Platform](https://img.shields.io/badge/platform-Win%20%7C%20Linux%20%7C%20Mac%20%7C%20Android-green)](https://github.com/dogesenic/rstf-rust/releases)
-  [![GitHub Stars](https://img.shields.io/github/stars/dogesenic/rstf-rust?style=social)](https://github.com/dogesenic/rstf-rust)
+  [![Platform](https://img.shields.io/badge/platform-Win%20%7C%20Linux%20%7C%20Mac%20%7C%20Android-green)](https://github.com/dogesenic/rstf/releases)
+  [![GitHub Stars](https://img.shields.io/github/stars/dogesenic/rstf?style=social)](https://github.com/dogesenic/rstf)
 
   **RSTF** is a high-performance file archiving utility built in Rust, prioritizing data security through modern encryption and efficient compression. It leverages cutting-edge cryptographic standards to safeguard files against emerging threats.
 
@@ -39,7 +39,7 @@ No root privileges required. Install the pre-compiled binary directly (choose ba
 
 ###### A. For ARM64 devices (most Android phones):
 ```bash
-wget https://github.com/dogesenic/rstf-rust/releases/latest/download/rstf-android-arm64 -O $PREFIX/bin/rstf
+wget https://github.com/dogesenic/rstf/releases/latest/download/rstf-android-arm64 -O $PREFIX/bin/rstf
 ```
 
 ```bash
@@ -55,7 +55,7 @@ rstf --help
 ```
 ###### B. For x86_64 emulators (if using Android emulator):
 ```bash
-wget https://github.com/dogesenic/rstf-rust/releases/latest/download/rstf-android-x86_64 -O $PREFIX/bin/rstf
+wget https://github.com/dogesenic/rstf/releases/latest/download/rstf-android-x86_64 -O $PREFIX/bin/rstf
 ```
 
 ```bash
@@ -75,7 +75,7 @@ Install system-wide (choose based on your architecture for best compatibility)
 
 ###### A. For x86_64 systems (most common):
 ```bash
-sudo wget https://github.com/dogesenic/rstf-rust/releases/latest/download/rstf-linux-amd64 -O /usr/local/bin/rstf
+sudo wget https://github.com/dogesenic/rstf/releases/latest/download/rstf-linux-amd64 -O /usr/local/bin/rstf
 ```
 
 ```bash
@@ -88,7 +88,7 @@ rstf --version
 
 ###### B. For ARM64 systems (e.g., Raspberry Pi or ARM servers): 
 ```bash
-sudo wget https://github.com/dogesenic/rstf-rust/releases/latest/download/rstf-linux-arm64 -O /usr/local/bin/rstf
+sudo wget https://github.com/dogesenic/rstf/releases/latest/download/rstf-linux-arm64 -O /usr/local/bin/rstf
 ```
 
 ```bash
@@ -100,7 +100,7 @@ rstf --version
 ```
 ###### C. For static musl versions (no dependencies, portable):
 ```bash
-sudo wget https://github.com/dogesenic/rstf-rust/releases/latest/download/rstf-linux-amd64-musl -O /usr/local/bin/rstf
+sudo wget https://github.com/dogesenic/rstf/releases/latest/download/rstf-linux-amd64-musl -O /usr/local/bin/rstf
 ```
 
 ```bash
@@ -120,7 +120,7 @@ rstf --help
 Compatible with Intel and Apple Silicon (choose based on your chip)
 ###### A. For Intel Macs (x86_64):
 ```bash
-sudo wget https://github.com/dogesenic/rstf-rust/releases/latest/download/rstf-macos-amd64 -O /usr/local/bin/rstf
+sudo wget https://github.com/dogesenic/rstf/releases/latest/download/rstf-macos-amd64 -O /usr/local/bin/rstf
 ```
 
 ```bash
@@ -132,7 +132,7 @@ rstf --version
 ```
 ###### B. For Apple Silicon (ARM64, M1/M2 chips):
 ```bash
-sudo wget https://github.com/dogesenic/rstf-rust/releases/latest/download/rstf-macos-arm64 -O /usr/local/bin/rstf
+sudo wget https://github.com/dogesenic/rstf/releases/latest/download/rstf-macos-arm64 -O /usr/local/bin/rstf
 ```
 
 ```bash
@@ -149,7 +149,7 @@ rstf --help
 ---
 
 ### Windows Users
-1. Download the appropriate .exe from the [Release Page](https://github.com/dogesenic/rstf-rust/releases) (MSVC recommended for compatibility, GNU as alternative).
+1. Download the appropriate .exe from the [Release Page](https://github.com/dogesenic/rstf/releases) (MSVC recommended for compatibility, GNU as alternative).
 2. Open Command Prompt or PowerShell in the download folder.
 3. Run: `.\rstf-windows-amd64.exe --help` (or `.\rstf-windows-amd64-gnu.exe --help` for GNU version). (Optional: Add the folder to your PATH for easier access).
 
@@ -195,7 +195,7 @@ rstf list backup.rstf
 We welcome contributions from the community! **RSTF** is an open-source project, and your input helps improve security, performance, and usability. Here's how to get involved:
 
 ### Ways to Contribute
-* **Report Issues:** Found a bug or have a feature request? Open an [issue](https://github.com/dogesenic/rstf-rust/issues) on GitHub.
+* **Report Issues:** Found a bug or have a feature request? Open an [issue](https://github.com/dogesenic/rstf/issues) on GitHub.
 * **Submit Pull Requests:** Fork the repo, make changes, and submit a PRequest. We follow standard Rust practices (e.g., `cargo fmt`, `cargo clippy`).
 * **Improve Documentation:** Help translate or enhance this README, or add examples.
 * **Test on New Platforms:** Try **RSTF** on untested devices and share feedback.
@@ -205,11 +205,11 @@ We welcome contributions from the community! **RSTF** is an open-source project,
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/dogesenic/rstf-rust.git
+git clone https://github.com/dogesenic/rstf.git
 ```
 
 ```bash
-cd rstf-rust
+cd rstf
 ```
 
 2. Install Rust (if not already):
