@@ -9,7 +9,7 @@
 
   **RSTF** is a high-performance file archiving utility built in Rust, prioritizing data security through modern encryption and efficient compression. It leverages cutting-edge cryptographic standards to safeguard files against emerging threats.
 
-> --> Engineered for seamless cross-platform operation <--
+> --> Free and Open Source Software <--
 
 </div>
 
@@ -27,7 +27,6 @@ Conventional archiving tools often employ outdated security measures vulnerable 
 | **Metadata**        | **Fully Encrypted**                    | Visible (Optional Encryption)       | Visible         |
 | **Compression**     | **Zstd** (Multithreaded)               | LZMA (Resource-Intensive)           | Deflate         |
 | **Keyfile Support** |  **Native**                           |  No                                |  No            |
-| **Mobile Native**   |  **Android/Termux Binary**            |  Requires App                      |  Requires App  |
 
 
 ---
@@ -256,8 +255,6 @@ Thank you for contributing to **RSTF**!
 ## Important Security Notice
 **This software contains no backdoors.** Loss of your password or keyfile will make data irrecoverable. RSTF's cryptography is designed to resist brute-force attacks. Always secure backups and use strong, unique passwords.
 
-[security](SECURITY.md)
-
 ---
 
 ## Author
@@ -285,8 +282,10 @@ Your contributions keep the **Rust ecosystem thriving**—thank you! If you've c
 ---
 
 ## License
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**  see the [LICENSE](LICENSE) file for details.
 
 ---
 
-Build with <3 for everyone XD
+<p align="center">
+  <img src="https://github.com/dogesenic/dogesenic/blob/main/source/img.png" alt="Your Alt Text" width="400"/>
+</p>
