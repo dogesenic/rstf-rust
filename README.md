@@ -287,5 +287,5 @@ This project is licensed under the **MIT License**  see the [LICENSE](LICENSE) f
 ---
 
 <p align="center">
-  <img src="https://github.com/dogesenic/dogesenic/blob/main/source/img.png" alt="Your Alt Text" width="400"/>
+  <img src="https://github.com/dogesenic/dogesenic/blob/main/sources/images/img1.jpg" alt="SUBSCRIBE"/>
 </p>
